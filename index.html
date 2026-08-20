@@ -2,14 +2,48 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbwEFOWQXFbMg1erGMwPirBk9BNuZWEIFExgZAYQVuo6lv46sYmNdUdPPGuHsXrXMd00mQ/exec">
-    <script>
-        window.location.replace("https://script.google.com/macros/s/AKfycbwEFOWQXFbMg1erGMwPirBk9BNuZWEIFExgZAYQVuo6lv46sYmNdUdPPGuHsXrXMd00mQ/exec");
-    </script>
-    <title>Mengarahkan ke SIMUPZ...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMUPZ - Kabupaten Nunukan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #f3f4f6;
+            font-family: 'Inter', sans-serif, system-ui;
+        }
+        .iframe-container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
-<body style="font-family: sans-serif; text-align: center; padding-top: 50px; background-color: #f3f4f6;">
-    <h3>Sedang memuat aplikasi SIMUPZ Kabupaten Nunukan...</h3>
-    <p>Jika Anda tidak dialihkan secara otomatis, <a href="https://script.google.com/macros/s/AKfycbwEFOwQXFbMg1eRGMwPirBk9BNuZWElFExgZAyQVuo6lv46sYmNdUdPPGuHsXrXMd00mQ/exec">klik di sini</a>.</p>
+<body>
+    <div class="iframe-container">
+        <iframe 
+            id="app"
+          src="https://script.google.com/macros/s/AKfycbwEFOwQXFbMg1eRGMwPirBk9BNuZWElFExgZAyQVuo6lv46sYmNdUdPPGuHsXrXMd00mQ/exec" 
+            scrolling="yes"
+            allowfullscreen="true"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true">
+        </iframe>
+    </div>
 </body>
 </html>
